@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿const string CONFIG = ".config";
+string pantry_id = "";
+
+if(File.Exsist(CONFIG))
+{
+    string[] configDetails = File.ReadAllLines(CONFIG);
+}
